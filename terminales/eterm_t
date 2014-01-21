@@ -1,0 +1,2 @@
+#!/bin/sh
+Eterm -x --buttonbar 0 --scrollbar 0 -f white --shade 0 --trans --geometry 63x76+5+0 -L 10000

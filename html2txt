@@ -1,0 +1,5 @@
+#!/bin/sh
+###### html2txt ######
+
+lynx -dump $1 > $1.txt
+exit

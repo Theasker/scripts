@@ -1,0 +1,3 @@
+#!/bin/sh
+exec /usr/X11R6/bin/xinit /usr/bin/xterm -ut -e \
+  /usr/bin/mplayer -stop-xscreensaver -fs -vo sdl "$@" -- /usr/X11R6/bin/X :1 -layout tv

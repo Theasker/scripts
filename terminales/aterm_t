@@ -1,0 +1,2 @@
+#!/bin/sh
+aterm -tr -trsb -tinttype true -sh 70 -fg white -bg black -title Theasker@gentoo

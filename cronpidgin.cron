@@ -1,0 +1,4 @@
+# minutos-horas-dias-meses-dias de la semana
+
+* * * * 1-5 /etc/scripts/pidgin/pidgin.sh
+15 17 * * * crontab /etc/scripts/cronbase.cron

@@ -1,0 +1,5 @@
+# minutos-horas-dias-meses-dias de la semana
+# Backup del directorio /etc/
+00 20 * * * /etc/scripts/backup/backup.sh
+#05 20 * * * /etc/scripts/backup/backupdokuwiki.sh
+00 21 * * * /etc/scripts/backup/backup/backupraspberry.sh

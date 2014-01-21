@@ -1,0 +1,7 @@
+#!/bin/bash
+a=`ls a*.txt `
+
+for i in $a
+do
+sed 's/\\Carlos/\\Rafa/g' $i > $i.new
+done
