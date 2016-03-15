@@ -7,7 +7,7 @@ FICHERO=/tmp/temp.txt
 xsel --clipboard > $FICHERO
 
 #convertimos el fichero de texto introducido como parámetro a audio wav
-espeak -v mb-es1 -p 99 -s 250 -f $FICHERO -w $FICHERO.wav
+espeak -v mb-es1 -p 99 -s 200 -f $FICHERO -w $FICHERO.wav
 
 #espeak -v mb-us2 -p 99 -s 140 -f $1 -w $1.wav
 
